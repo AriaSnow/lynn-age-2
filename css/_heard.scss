@@ -1,0 +1,10 @@
+body{
+    background-color: pink;
+}
+.navbar-toggler {
+    &:focus {
+        outline: none; // 移除默认的焦点边框
+        // box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); // 添加一个黑色透明的阴影
+        box-shadow: none;
+    }
+}
